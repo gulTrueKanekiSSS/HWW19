@@ -8,7 +8,7 @@ from decorator import auth_reguired, admin_reguired
 
 
 
-genres_ns = Namespace('Genres')
+genres_ns = Namespace('genres')
 
 genre_scheme = Genre_scheme()
 genres_scheme = Genre_scheme(many=True)
