@@ -5,7 +5,7 @@ import calendar
 from constants import JWT_ALGORITHM, JWT_SECRET
 
 class AuthService:
-    def init(self, user_service):
+    def __init__(self, user_service):
         self.user_service = user_service
 
     def generate_token(self, username, password, is_refresh=False):

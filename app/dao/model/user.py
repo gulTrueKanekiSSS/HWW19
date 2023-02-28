@@ -13,10 +13,10 @@ class User(db.Model):
 
 
 class User_scheme(Schema):
-    id = fields.Int
-    username = fields.Str
-    password = fields.Str
-    role = fields.Str
+    id = fields.Int()
+    username = fields.Str()
+    password = fields.Str()
+    role = fields.Str()
 
 
 
